@@ -22,7 +22,7 @@
                 @Html.DisplayNameFor(model => model.Name)
             </th>
 
-            <th>
+            <th class="text-right">
                 <label>Operations</label>
             </th>
         </tr>
@@ -34,9 +34,7 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td class="text-right">
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+           <partial name="_TableButtonsPartial" />
             </td>
         </tr>
 }
