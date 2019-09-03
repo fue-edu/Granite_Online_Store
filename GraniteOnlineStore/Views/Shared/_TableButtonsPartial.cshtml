@@ -1,7 +1,12 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 *@
+@model int
 
-@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-@Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+    <div class="btn-group" role="group">
+        <a  class="btn btn-primary" href="@Url.Action("Edit/"+Model)"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+        <a  class="btn btn-success" href="@Url.Action("Details/"+Model)"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+        <a class="btn btn-danger" href="@Url.Action("Delete/"+Model)">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+        </a>
+    </div>
