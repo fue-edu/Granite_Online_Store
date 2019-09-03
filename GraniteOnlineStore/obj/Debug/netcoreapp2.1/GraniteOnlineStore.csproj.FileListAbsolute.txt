@@ -35,3 +35,6 @@ C:\Users\student\repos\Granite_Online_Store\GraniteOnlineStore\obj\Debug\netcore
 C:\Users\student\repos\Granite_Online_Store\GraniteOnlineStore\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Privacy.g.cshtml.cs
 C:\Users\student\repos\Granite_Online_Store\GraniteOnlineStore\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewImports.g.cshtml.cs
 C:\Users\student\repos\Granite_Online_Store\GraniteOnlineStore\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewStart.g.cshtml.cs
+C:\Users\student\repos\Granite_Online_Store\GraniteOnlineStore\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Index.g.cshtml.cs
+C:\Users\student\repos\Granite_Online_Store\GraniteOnlineStore\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+C:\Users\student\repos\Granite_Online_Store\GraniteOnlineStore\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs

@@ -20,7 +20,7 @@ namespace GraniteOnlineStore.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(_db.ProductTypes.ToList());
         }
     }
 }
