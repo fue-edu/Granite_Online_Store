@@ -41,3 +41,4 @@ C:\Users\student\repos\Granite_Online_Store\GraniteOnlineStore\obj\Debug\netcore
 C:\Users\student\repos\Granite_Online_Store\GraniteOnlineStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_TableButtonsPartial.g.cshtml.cs
 C:\Users\student\repos\Granite_Online_Store\GraniteOnlineStore\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Create.g.cshtml.cs
 C:\Users\student\repos\Granite_Online_Store\GraniteOnlineStore\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Edit.g.cshtml.cs
+C:\Users\student\repos\Granite_Online_Store\GraniteOnlineStore\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Details.g.cshtml.cs

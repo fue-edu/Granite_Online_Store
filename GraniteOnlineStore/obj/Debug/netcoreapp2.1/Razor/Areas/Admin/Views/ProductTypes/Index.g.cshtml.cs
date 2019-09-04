@@ -65,7 +65,7 @@ using GraniteOnlineStore.Models;
             WriteLiteral("<br/><br/>\r\n\r\n<div class=\"row\">\r\n    <div class=\"col-6\">\r\n<h2>Product Types</h2>\r\n    </div>\r\n    <div class=\"col-6 text-right\">\r\n        ");
             EndContext();
             BeginContext(241, 43, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8b7401e571f45a2b9f1709c9627b9ed", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "13a519ab8dc14c27b9d347eda6f31bb2", async() => {
                 BeginContext(264, 16, true);
                 WriteLiteral("New Product Type");
                 EndContext();
@@ -115,7 +115,7 @@ using GraniteOnlineStore.Models;
             WriteLiteral("\r\n            </td>\r\n            <td class=\"text-right\">\r\n           ");
             EndContext();
             BeginContext(802, 55, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "273a8c7b5f5e4d8f9e594ca9ecf4ed87", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e78df1822d3e48dfb4a5dfd48c12c34c", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

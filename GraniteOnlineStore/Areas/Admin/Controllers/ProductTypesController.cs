@@ -73,8 +73,23 @@ namespace GraniteOnlineStore.Areas.Admin.Controllers
             }
             return View(productTypes);
         }
-        //###
+        //################Details
+        public IActionResult Details(int? id)
+        {
+            if (id == null)
+            {
 
+                return NotFound();
+            }
+            var productType = _db.ProductTypes.Find(id);
+
+            if (productType == null)
+            {
+                return NotFound();
+            }
+
+            return View(productType);
+        }
 
     }
 }
