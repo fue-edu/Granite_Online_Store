@@ -91,5 +91,35 @@ namespace GraniteOnlineStore.Areas.Admin.Controllers
             return View(productType);
         }
 
+
+        //################Delete############
+
+
+        public IActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+
+                return NotFound();
+            }
+            var productType = _db.ProductTypes.Find(id);
+
+            if (productType == null)
+            {
+                return NotFound();
+            }
+
+            return View(productType);
+        }
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+                 var productTypes = _db.ProductTypes.Find(id);
+                _db.ProductTypes.Remove(productTypes);
+                _db.SaveChanges();
+                return RedirectToAction(nameof(Index));
+ 
+        }
+
     }
 }
